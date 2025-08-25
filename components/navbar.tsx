@@ -294,7 +294,7 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="lg:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-100">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-100 h-screen overflow-y-auto">
               <Link
                 href="/"
                 className="block px-3 py-2 text-[#0C2340] hover:text-[#CBA135] hover:bg-gray-50 rounded-md transition-colors duration-200 font-medium"
